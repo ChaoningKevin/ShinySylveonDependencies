@@ -19,7 +19,7 @@ class Qemu < Formula
   depends_on "pkg-config" => :build
 
   depends_on "glib"
-  depends_on "gnutls"
+  depends_on "https://github.com/ChaoningKevin/ShinySylveonDependencies/blob/main/v1.0/gnutls.rb"
   depends_on "jpeg"
   depends_on "libpng"
   depends_on "libssh"
